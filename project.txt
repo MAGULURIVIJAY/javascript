@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="realme.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <marquee behavior="alt" direction="right"></marquee>
+    <div class="mobilephones" style="background-color: burlywood;">
+        <div class="card">
+            <img src="iphone.jfif" alt="iphone"height="300px" width="200px" >
+            <div class="tab">
+            <h1><u>IPHONE</u></h1>
+            <h3>MRP: <s>90,000/-</s></h3>
+            <H3>OFFER: 60,000/-</H3>
+            <span>
+                <button style="background-color: brown;">ADD CART</button>
+                <button style="background-color: brown;">SHOP NOW</button>   
+            </span>
+        </div>
+        </div>
+        <div class="card">
+            <img src="re.jpg" alt="realme mobile"height="300px" width="200px" >
+            <div class="tab">
+            <h1><u>REALME</u></h1>
+            <h3>MRP: <s>90,000/-</s></h3>
+            <H3>OFFER: 60,000/-</H3>
+            <span>
+                <button style="background-color: brown;">ADD CART</button>
+                <button style="background-color: brown;">SHOP NOW</button>   
+            </span>
+        </div>
+        </div>
+        <div class="card">
+            <img src="tablet.webp" alt="tablet" height="300px" width="200px">
+            <div class="tab">
+            <h1><u>TABLET</u></h1>
+            <h3>MRP:<s>90,000/-</s></h3>
+            <H3>OFFER: 60,000/-</H3>
+            <span>
+                <button style="background-color: brown;">ADD CART</button>
+                <button style="background-color: brown;">SHOP NOW</button>   
+            </span>
+        </div>
+        </div>
+        <div class="card"><img src="laptop.jpg" alt="laptop" height="300px" width="200px">
+            <div class="tab">
+            <h1><u>LAPTOP</u></h1>
+            <h3>MRP: <s>90,000/-</s></h3>
+            <H3>OFFER: 60,000/-</H3>
+            <span>
+                <button style="background-color: brown;">ADD CART</button>
+                <button style="background-color: brown;">SHOP NOW</button>   
+            </span>
+        </div>
+        </div>
+    </div>
+</marquee>
+</body>
+</html>
+<div></div>
