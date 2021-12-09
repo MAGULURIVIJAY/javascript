@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex>div{
+            background-color: skyblue;
+            color:yellow ;
+            border:tomato 2px solid;
+            padding: 2%;
+            margin: 1%;
+            font: italic;
+            font-size: 40px;
+        }
+        .flex{
+            /* height:500px; */
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* row,row-reverse,column,column-reverse */
+            /* justify-content:space-evenly; */
+            /* flex-start,flex-end,space-around,space-between,space-evenly */
+            flex-wrap: wrap;
+            /* wrap,nowrap,wrap-reverse */
+            /* align-content:stretch; */
+            /* center,space-between,space-around,flex-start,flex-end,stretch */
+            /* align-items:flex-end; */
+            /* flex-start,flex-end,center,stretch,baseline */
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div>A </div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+</body>
+</html>
