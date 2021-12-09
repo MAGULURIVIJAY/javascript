@@ -1,0 +1,57 @@
+.mobilephones{
+    display: flex;
+    flex-wrap: wrap;
+    border: 4px solid red;
+}
+.card{
+    border: 3px solid royalblue;
+    padding: 1%;
+    margin: 2%;
+    width: 25%;
+    font-style: italic;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .mobilephones{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .mobilephones>.card{
+        width: 92%;
+        background-color: thistle;
+        text-align: center;
+    }
+    img{
+        width: 75%;
+    }
+} 
+@media only screen and (min-width:481px) and (max-width:768px)  {
+    .mobilephones{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        width: 90%;
+        text-align: center;
+        background-color: rgb(128, 115, 0);
+    }
+    img{
+        width: 40%;
+        height: 90%;
+    }
+    .tab{
+        margin-top: auto;
+        margin-bottom: auto;
+        border: grey 2px dotted;
+        border-radius: 5%;
+    }
+}
